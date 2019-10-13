@@ -1,0 +1,19 @@
+body{
+	background-color: #FFE773;
+}
+.p1page3{
+margin: 100px 0; /*отступ вверху и внизу, побокам*/
+/*margin-left: 200px;*/
+}
+.div1page3{
+	width: 60%;
+	/*margin-top: 10px;*/
+	/*padding-left: 600px;*/ /*внутреннний левый отступ*/
+	/*padding-bottom: 600px;*/
+	color: #747474;
+	background-color: #BAF46E;
+	border: 5px solid #569700; /*граница дива */
+}
+.div1page3:hover{
+	border-color: #2A5F4C; /*отвечает за мигание бордера */
+}

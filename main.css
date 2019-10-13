@@ -1,0 +1,89 @@
+body{
+background-color:#FFC073;
+}
+/*поменяла цвет фона*/
+*{ /**отвечает за всю страницу**/
+	padding: 0; /**внутренний отступ**/
+	margin: 0; /**внешний отступ**/
+	box-sizing: border-box;/**модель отбражения отступов**/
+}
+img{
+	max-width: 600px;/**максимальная ширина картинки**/
+	width: 100%; /*устанавливает максимальную ширину*/
+	/*width:900px;*/ /**ширина**/
+    height: auto; /**высота**/
+    display:block;/**блокирует дисплей**/
+    margin: auto; /*внешний отступ*/
+	 }
+	 .p1{
+	 	font-family: 'Caveat', cursive;/*вставка шрифта с гугл*/
+	 	font-size: 20px;
+	 }
+	 .h1{
+	 	font-family: 'Amatic SC', cursive;
+	 	font-size: 80px;
+	 	width: 80%;
+	 	margin: auto;
+	 }
+	 .a1{
+	 	font-size: 34px;/*размер ссылки*/
+	 	color: #220D00;/*цвет ссылки*/
+	 	width: 40%;
+	    margin: auto;
+	    font-family: 'Yanone Kaffeesatz', sans-serif;
+	 }
+	 .a2{
+	 	font-size: 34px;/*размер ссылки*/
+	 	color: #220D00; /*цвет ссылки*/
+	 	width: 40%;
+	    margin: auto;
+	    font-family: 'Yanone Kaffeesatz', sans-serif; 
+	    text-decoration: none; /*убирает подчеркивание*/
+	 }
+	 .div1page1{
+	 	width: 70%;
+	 	margin: auto;
+	 	font-family: 'Open Sans Condensed', sans-serif;
+	 	font-size: 35px;
+	 }
+     .h2{
+	    font-family: 'Poiret One', cursive;
+	    font-size: 50px;
+	    width: 70%;
+	    margin: auto;
+     }
+     .h3{
+     	font-family: 'Poiret One', cursive;
+	    font-size: 50px;
+	    width: 70%;
+	    margin: auto;
+     }
+     .h4{
+     	font-family: 'Poiret One', cursive;
+	    font-size: 50px;
+	    width: 70%;
+	    margin: auto;
+     }
+     .h5{
+     	font-family: 'Poiret One', cursive;
+	    font-size: 50px;
+	    width: 70%;
+	    margin: auto;
+     }
+     .img13{
+     	max-width: 400px;
+     	width: 100%;
+        height: auto;
+        display:block;
+     }
+     .a3{
+	 	font-size: 34px;
+	 	color: #220D00;
+	 	width: 40%;
+	    margin: auto;
+	    font-family: 'Yanone Kaffeesatz', sans-serif; 
+	    text-decoration: none; 
+	 }
+
+
+
