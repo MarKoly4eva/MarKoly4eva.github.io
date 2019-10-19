@@ -58,6 +58,14 @@ img{
 	 	width: 40%;
 	    margin: auto;
 	    font-family: 'Yanone Kaffeesatz', sans-serif;
+	    text-decoration: none;
+	}
+     .a2page2{
+	    font-size: 34px;
+	    color: #220D00;
+	 	width: 40%;
+	    margin: auto;
+	    font-family: 'Yanone Kaffeesatz', sans-serif;
 	    text-decoration: none; 
      }
      .a2page2{
