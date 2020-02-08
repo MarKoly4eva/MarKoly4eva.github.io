@@ -1,3 +1,67 @@
-body{
-	background-color: 
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+ }
+ 
+.heading{
+font-size: 48px;
+text-align: center; /*выравнивание текста по центру*/
+width: 100%; 
+font-family: 'Fascinate Inline', cursive;
+padding: 10px 0; /*внутренний отступ для heading'а*/
+}
+
+.main{
+background-color: #fff;
+display: flex;
+width: 95%;
+max-width: 1000px;
+margin: auto;
+box-shadow: 0px 0px 100px 1px  rgba(0,0,0,0.7); /*тень по 4ем сторонам*/ 
+/*1ый 0 по ширине, 2ой 0 по высоте, 3ий 0 радиус размытия, 4ое растяжение*/
+/*в скобках задает насыщеность цвета*/
+flex-wrap: wrap;
+}
+
+.item{
+	max-height: 265px;
+	max-width: 490px;
+	width: calc(95vw / 2 - 10px);
+	height: calc(95vw / 2 / 16 * 9);
+	background-color: dodgerblue;
+	background-position: center; /*совмещает центр изображения с центром контейнера*/ 
+	-webkit-background-size: cover; /*маштабирует избражение в сответствии с его размером*/
+	background-size: cover;
+}
+
+.img_link{
+display:block;
+opacity: 1;
+transition: 1s ease-in/*, transform:1s ease-in, box-shadow: 0.3s ease-out*/; /*время, плавность амимации*/
+margin: 5px;
+}
+
+@media all and (max-width: 768px){
+	.item{
+		max-height:initial;
+		max-width:initial;
+		width:95vw;
+		height:calc(95vw / 16 * 9); 
+}
+.img_link{
+	margin: 5px 0;
+}
+}
+
+@media all and (min-width: 1200px) {
+	.img_link:hover {
+		opacity: 1;/*прозрачность элемента при наведении*/
+		transform:scale(1.2) rotate(5deg);
+		z-index: 10;/*прозрачность элемента при наведении*/
+		box-shadow: 0 0 200px 30px rgba(0,0,0,0.4);
+	}
+
 }

@@ -1,11 +1,13 @@
 body{
-background-color:#FFC073;
+background-color:#C6BCB8;
 }
 /*поменяла цвет фона*/
 *{ /**отвечает за всю страницу**/
 	padding: 0; /**внутренний отступ**/
 	margin: 0; /**внешний отступ**/
 	box-sizing: border-box;/**модель отбражения отступов**/
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 }
 img{
 	max-width: 600px;/**максимальная ширина картинки**/
@@ -15,15 +17,49 @@ img{
     display:block;/**блокирует дисплей**/
     margin: auto; /*внешний отступ*/
 	 }
-	 .p1{
-	 	font-family: 'Caveat', cursive;/*вставка шрифта с гугл*/
+	 /*.landp{
+	 	font-family: 'Amatic SC', cursive;
+	 	font-size: 40px;
+	 	padding-left: 1000px;
+	 }*/
+	 /*.p1{
+	 	font-family: 'Caveat', cursive;вставка шрифта с гугл
 	 	font-size: 20px;
+	 }*/
+	 .header{
+	 	width: 100%;
+	 	float: left;
+	 	padding: 1%;
+	 	/*height: 100%;*/
+	 	background-color: #8E807B;
+	 	border-bottom: 2px solid silver;
+	 }
+	 .header1{
+	 	font-family: 'Amatic SC', cursive;
+	 	font-size: 70px;
+	 	width: 78%;
+	 	text-decoration: none;
+	 	color: #40312B;
+	 	border-left: 50px;
+	 	float: left;
+	 	/*height: 100%;*/
 	 }
 	 .h1{
-	 	font-family: 'Amatic SC', cursive;
-	 	font-size: 80px;
-	 	width: 80%;
-	 	margin: auto;
+	 	text-decoration: none;
+	 	color: #40312B;
+	 	font-weight: bolder;
+	 	margin-left: 100px;
+	 }
+	 .header2{
+	 	width: 21%;
+	    font-family: 'Poiret One', cursive;
+	    color: #40312B;
+	    font-size: 60px;
+	    float: right;
+	   /* height: 100%;*/
+	 }
+	 .vhod{
+	 	float: right;
 	 }
 	 .a1{
 	 	font-size: 34px;/*размер ссылки*/
@@ -46,13 +82,14 @@ img{
 	 	font-family: 'Open Sans Condensed', sans-serif;
 	 	font-size: 35px;
 	 }
-     .h2{
+     .h2, .h3, .h4, .h5{
 	    font-family: 'Poiret One', cursive;
 	    font-size: 50px;
 	    width: 70%;
 	    margin: auto;
+	    color: #39140A;
      }
-     .h3{
+    /* .h3{
      	font-family: 'Poiret One', cursive;
 	    font-size: 50px;
 	    width: 70%;
@@ -69,7 +106,7 @@ img{
 	    font-size: 50px;
 	    width: 70%;
 	    margin: auto;
-     }
+     }*/
      .img13{
      	max-width: 400px;
      	width: 100%;
@@ -91,6 +128,10 @@ img{
 	    margin: auto;
 	    font-family: 'Yanone Kaffeesatz', sans-serif; 
 	    text-decoration: none; 
+	 }
+	 .p5{
+	 	/*text-transform: capitalize; *//*делает все слова в предложении с больщой буквы*/
+	 	/*text-decoration: line-through;*/ /*зачеркивает текст*/
 	 }
 
 
