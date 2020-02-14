@@ -1,5 +1,5 @@
 body{
-background-color:#C6BCB8;
+	background-color:#C6BCB8;
 }
 /*поменяла цвет фона*/
 *{ /**отвечает за всю страницу**/
@@ -26,18 +26,18 @@ img{
 	 	font-family: 'Caveat', cursive;вставка шрифта с гугл
 	 	font-size: 20px;
 	 }*/
-	 .header{
+ .header{
 	 	width: 100%;
 	 	float: left;
 	 	padding: 1%;
 	 	/*height: 100%;*/
 	 	background-color: #8E807B;
-	 	border-bottom: 2px solid silver;
+	 	border-bottom: 6px solid #3C3634;
 	 }
 	 .header1{
 	 	font-family: 'Amatic SC', cursive;
 	 	font-size: 70px;
-	 	width: 78%;
+	 	width: 45%;
 	 	text-decoration: none;
 	 	color: #40312B;
 	 	border-left: 50px;
@@ -50,8 +50,20 @@ img{
 	 	font-weight: bolder;
 	 	margin-left: 100px;
 	 }
+	 .h1:hover{
+       color: #A60000;
+	 }
+	 .header3{
+	 	width: 100%;
+	 }
+	 .search{
+	 	width: 19%;
+	 	float: left;
+	 	height: 100%;
+	 	padding-top: 30px;
+	 }
 	 .header2{
-	 	width: 21%;
+	 	width: 35%;
 	    font-family: 'Poiret One', cursive;
 	    color: #40312B;
 	    font-size: 60px;
@@ -61,20 +73,35 @@ img{
 	 .vhod{
 	 	float: right;
 	 }
-	 .a1{
-	 	font-size: 34px;/*размер ссылки*/
-	 	color: #220D00;/*цвет ссылки*/
+	 .footer{
+	 	width: 100%;
+	 	float: left;
+	 	background-color: #8E807B;
+	 	border-top: 6px solid #3C3634;
+	 	padding: 3px;
+	 }
+	 #rights{
 	 	width: 40%;
-	    margin: auto;
+	 	float: left;
+	 	padding-left: 40px; 
+	 }
+	 #social{
+	 	width: 60%;
+	 }
+	.vk, .fb, .inst{
+		max-width: 30px;
+		width: 100%;
+		height: auto; 
+        display:block;
+        float: left;
+	}
+	 .a1{
+	 	font-size: 40px;/*размер ссылки*/
+	 	color: black;/*цвет ссылки*/
 	    font-family: 'Yanone Kaffeesatz', sans-serif;
 	 }
-	 .a2{
-	 	font-size: 34px;/*размер ссылки*/
-	 	color: #220D00; /*цвет ссылки*/
-	 	width: 40%;
-	    margin: auto;
-	    font-family: 'Yanone Kaffeesatz', sans-serif; 
-	    text-decoration: none; /*убирает подчеркивание*/
+	 .a1:hover{
+	 	color: #A60000;
 	 }
 	 .div1page1{
 	 	width: 70%;
@@ -87,51 +114,39 @@ img{
 	    font-size: 50px;
 	    width: 70%;
 	    margin: auto;
-	    color: #39140A;
      }
-    /* .h3{
-     	font-family: 'Poiret One', cursive;
-	    font-size: 50px;
-	    width: 70%;
-	    margin: auto;
-     }
-     .h4{
-     	font-family: 'Poiret One', cursive;
-	    font-size: 50px;
-	    width: 70%;
-	    margin: auto;
-     }
-     .h5{
-     	font-family: 'Poiret One', cursive;
-	    font-size: 50px;
-	    width: 70%;
-	    margin: auto;
-     }*/
      .img13{
      	max-width: 400px;
      	width: 100%;
         height: auto;
         display:block;
      }
-     .a3{
-	 	font-size: 34px;
-	 	color: #220D00;
-	 	width: 40%;
-	    margin: auto;
+     .a2{
+	 	font-size: 42px;
 	    font-family: 'Yanone Kaffeesatz', sans-serif; 
 	    text-decoration: none; 
+	    color: #40312B;
 	 }
-     .a4{
-	 	font-size: 34px;
-	 	color: #220D00;
-	 	width: 40%;
-	    margin: auto;
+	 .a3{
+	 	font-size: 42px;
 	    font-family: 'Yanone Kaffeesatz', sans-serif; 
 	    text-decoration: none; 
+	    color: #40312B;
 	 }
-	 .p5{
-	 	/*text-transform: capitalize; *//*делает все слова в предложении с больщой буквы*/
-	 	/*text-decoration: line-through;*/ /*зачеркивает текст*/
+	 .a4{
+	 	font-size: 42px;
+	    font-family: 'Yanone Kaffeesatz', sans-serif; 
+	    text-decoration: none; 
+	    color: #40312B;
+	 }
+	 .a2:hover{
+	 	color: #009999;
+	 }
+	 .a3:hover{
+	 	color: #009999;
+	 }
+	 .a4:hover{
+	 	color: #009999;
 	 }
 
 

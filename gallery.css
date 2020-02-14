@@ -4,8 +4,77 @@
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+	background-color:#C6BCB8;
  }
- 
+ .header{
+	 	width: 100%;
+	 	float: left;
+	 	padding: 1%;
+	 	/*height: 100%;*/
+	 	background-color: #8E807B;
+	 	border-bottom: 6px solid #3C3634;
+	 }
+	 .header1{
+	 	font-family: 'Amatic SC', cursive;
+	 	font-size: 70px;
+	 	width: 45%;
+	 	text-decoration: none;
+	 	color: #40312B;
+	 	border-left: 50px;
+	 	float: left;
+	 	/*height: 100%;*/
+	 }
+	 .h1{
+	 	text-decoration: none;
+	 	color: #40312B;
+	 	font-weight: bolder;
+	 	margin-left: 100px;
+	 }
+	 .h1:hover{
+       color: #A60000;
+	 }
+	 .header3{
+	 	width: 100%;
+	 }
+	 .search{
+	 	width: 19%;
+	 	float: left;
+	 	height: 100%;
+	 	padding-top: 30px;
+	 }
+	 .header2{
+	 	width: 35%;
+	    font-family: 'Poiret One', cursive;
+	    color: #40312B;
+	    font-size: 60px;
+	    float: right;
+	   /* height: 100%;*/
+	 }
+	 .vhod{
+	 	float: right;
+	 }
+	 .footer{
+	 	width: 100%;
+	 	float: left;
+	 	background-color: #8E807B;
+	 	border-top: 6px solid #3C3634;
+	 	padding: 3px;
+	 }
+	 #rights{
+	 	width: 40%;
+	 	float: left;
+	 	padding-left: 40px; 
+	 }
+	 #social{
+	 	width: 60%;
+	 }
+	.vk, .fb, .inst{
+		max-width: 30px;
+		width: 100%;
+		height: auto; 
+        display:block;
+        float: left;
+	}
 .heading{
 font-size: 48px;
 text-align: center; /*выравнивание текста по центру*/
@@ -65,3 +134,22 @@ margin: 5px;
 	}
 
 }
+.author{
+	    font-size: 40px;/*размер ссылки*/
+	 	color: black;/*цвет ссылки*/
+	    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.author:hover{
+	 	color: #A60000;
+	 }
+.a1,.a2{
+	 	font-size: 34px;
+	 	color: #220D00;
+	 	width: 40%;
+	    margin: auto;
+	    font-family: 'Yanone Kaffeesatz', sans-serif; 
+	    text-decoration: none; 
+	 }
+	 .a1, .a2:hover{
+     	color: #61133F;
+     }
