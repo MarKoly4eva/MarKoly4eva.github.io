@@ -22,6 +22,7 @@
 	 	color: #40312B;
 	 	border-left: 50px;
 	 	float: left;
+	 	background-color: #8E807B;
 	 	/*height: 100%;*/
 	 }
 	 .h1{
@@ -29,18 +30,21 @@
 	 	color: #40312B;
 	 	font-weight: bolder;
 	 	margin-left: 100px;
+	 	background-color: #8E807B;
 	 }
 	 .h1:hover{
        color: #A60000;
 	 }
 	 .header3{
 	 	width: 100%;
+	 	background-color: #8E807B;
 	 }
 	 .search{
 	 	width: 19%;
 	 	float: left;
 	 	height: 100%;
 	 	padding-top: 30px;
+	 	background-color: #8E807B;
 	 }
 	 .header2{
 	 	width: 35%;
@@ -48,10 +52,12 @@
 	    color: #40312B;
 	    font-size: 60px;
 	    float: right;
+	    background-color: #8E807B;
 	   /* height: 100%;*/
 	 }
 	 .vhod{
 	 	float: right;
+	 	background-color: #8E807B;
 	 }
 	 .footer{
 	 	width: 100%;
@@ -64,9 +70,11 @@
 	 	width: 40%;
 	 	float: left;
 	 	padding-left: 40px; 
+	 	background-color: #8E807B;
 	 }
 	 #social{
 	 	width: 60%;
+	 	background-color: #8E807B;
 	 }
 	.vk, .fb, .inst{
 		max-width: 30px;
@@ -74,6 +82,7 @@
 		height: auto; 
         display:block;
         float: left;
+        background-color: #8E807B;
 	}
 .heading{
 font-size: 48px;
@@ -138,6 +147,7 @@ margin: 5px;
 	    font-size: 40px;/*размер ссылки*/
 	 	color: black;/*цвет ссылки*/
 	    font-family: 'Yanone Kaffeesatz', sans-serif;
+	    background-color:#C6BCB8;
 }
 .author:hover{
 	 	color: #A60000;
@@ -148,7 +158,8 @@ margin: 5px;
 	 	width: 40%;
 	    margin: auto;
 	    font-family: 'Yanone Kaffeesatz', sans-serif; 
-	    text-decoration: none; 
+	    text-decoration: none;
+	    background-color:#C6BCB8;
 	 }
 	 .a1, .a2:hover{
      	color: #61133F;

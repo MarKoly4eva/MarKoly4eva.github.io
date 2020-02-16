@@ -54,10 +54,12 @@ img{
 	    color: #40312B;
 	    font-size: 60px;
 	    float: right;
+	    text-align: right;
 	   /* height: 100%;*/
 	 }
 	 .vhod{
 	 	float: right;
+	 	 text-align: right;
 	 }
 	 .footer{
 	 	width: 100%;
